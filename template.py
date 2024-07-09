@@ -23,7 +23,6 @@ list_of_files=[
     "init_setup.sh",
 ]
 
-
 # here will create a directory
 
 for filepath in list_of_files:
@@ -44,5 +43,3 @@ for filepath in list_of_files:
         print("file already exists")
 
 # here will use the file handling
-
-
