@@ -27,9 +27,7 @@ def evaluate_model(X_train,y_train,X_test,y_test,models):
             model = list(models.values())[i]
             # Train model
             model.fit(X_train,y_train)
-
             
-
             # Predict Testing data
             y_test_pred =model.predict(X_test)
 
