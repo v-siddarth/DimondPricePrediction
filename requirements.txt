@@ -5,4 +5,5 @@ ipykernel
 seaborn
 matplotlib
 plotly
+flask
 -e.
